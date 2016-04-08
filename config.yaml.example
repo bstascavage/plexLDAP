@@ -1,0 +1,10 @@
+---
+plex:
+  server: localhost
+  api_key: <api_key>
+ldap:
+  server: localhost
+  port: 389
+  base: dc=example,dc=com
+  bind_user: cn=example,dc=example,dc=com
+  bind_password: <password>
